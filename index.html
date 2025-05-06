@@ -1,73 +1,196 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Roblox Clone</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 font-sans">
-  <div class="min-h-screen flex items-center justify-center">
-    <div class="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
-      <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Roblox Clone</h1><h2 class="text-xl font-semibold text-gray-700 mb-2">Register</h2>
-  <form id="registerForm" class="space-y-4 mb-8">
-    <input name="username" type="text" placeholder="Username" required class="w-full p-3 border border-gray-300 rounded" />
-    <input name="password" type="password" placeholder="Password" required class="w-full p-3 border border-gray-300 rounded" />
-    <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded">Sign Up</button>
-  </form>
+510             </div>
+511         </div>
+512     </section>
+513 
+514     <footer class="row">
+515         <div class="col-xs-12">
+516             <div id="FooterBigLinks" class="row">
+517                 <div class="col-md-12 text-center">
+518                     <a href="//web.archive.org/web/20150109042257/http://corp.roblox.com/" target="_blank">About Us</a>
+519                     <a href="//web.archive.org/web/20150109042257/http://corp.roblox.com/jobs" target="_blank">Jobs</a>
+520                     <a href="//web.archive.org/web/20150109042257/http://blog.roblox.com/" target="_blank">Blog</a>
+521                     <a href="/web/20150109042257/http://www.roblox.com/Info/Privacy.aspx" target="_blank">Privacy</a>
+522                     <a href="//web.archive.org/web/20150109042257/http://corp.roblox.com/parents" target="_blank">Parents</a>
+523                     <a href="//web.archive.org/web/20150109042257/http://en.help.roblox.com/" target="_blank">Help</a>
+524                 </div>
+525             </div>
+526             <div class="row">
+527                 <div id="FooterLegalText" class="col-xs-11 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-justify">
+528                     ROBLOX, "Online Building Toy", characters, logos, names, and all related indicia are trademarks of <a target="_blank" href="//web.archive.org/web/20150109042257/http://corp.roblox.com/">ROBLOX Corporation</a>, ©2014. Patents pending. ROBLOX is not sponsored, authorized or endorsed by any producer of plastic building bricks, including The LEGO Group, MEGA Brands, and K'Nex, and no resemblance to the products of these companies is intended. Use of this site signifies your acceptance of the <a href="/web/20150109042257/http://www.roblox.com/info/terms-of-service" target="_blank">Terms and Conditions</a>.
+529                 </div>
+530             </div>
+531             <div id="FooterLanguage" class="row">
+532                 <div class="col-xs-12 text-center">
+533                     <a href="/web/20150109042257/http://www.roblox.com/userlanguage/languageredirect?languageCode=en&amp;relativePath=%2F">English</a>
+534                     <a href="/web/20150109042257/http://www.roblox.com/userlanguage/languageredirect?languageCode=de&amp;relativePath=%2F">Deutsch</a>
+535                 </div>
+536             </div>
+537             <div id="FooterSocial" class="row">
+538                 <div class="col-xs-12 text-center">
+539                     <div class="social-button twitter">
+540                         <a href="https://web.archive.org/web/20150109042257/https://twitter.com/ROBLOX" class="twitter-follow-button" data-show-count="false">Follow @ROBLOX</a>
+541                     </div>
+542                     <div class="social-button fb-button">
+543                         <div class="fb-like" data-href="https://facebook.com/ROBLOX" data-width="50" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+544                     </div>
+545                     <div class="social-button youtube-subscribe">
+546                         <div class="g-ytsubscribe" data-channel="ROBLOX"></div>
+547                     </div>
+548                     <div class="social-button twitch-button">
+549                         <a href="https://web.archive.org/web/20150109042257/http://www.twitch.tv/roblox/" target="_blank" title="ROBLOX on Twitch">
+550                             <img src="https://web.archive.org/web/20150109042257im_/http://images.rbxcdn.com/867b903498ac432e95414f6f3a3feff1.png" width="24" height="24" alt="ROBLOX on Twitch"/>
+551                         </a>
+552                     </div>
+553                 </div>
+554             </div>
+555         </div>
+556     </footer>
+557 </div>
+558  
+559 
+560 <img src="/web/20150109042257im_/http://www.roblox.com/timg/rbx"/>
+561 <script>
+562     Roblox.Resources.AnimatedSignupFormValidator = {
+563         //<sl:translate>
+564         doesntMatch: "Doesn't match",
+565         requiredField: "Required",
+566         tooLong: "Too long",
+567         tooShort: "Too short",
+568         maxValid: "Too many accounts use this email",
+569         needsFourLetters: "Needs 4 letters",
+570         needsTwoNumbers: "Needs 2 numbers",
+571         noSpaces: "No spaces allowed",
+572         weakKey: "Weak key combination.",
+573         invalidName: "Can't be your character name",
+574         alreadyTaken: "Already taken",
+575         cantBeUsed: "Can't be used",
+576         invalidBirthday: "Invalid birthday",
+577         loginFieldsRequired: "Username and Password are required.",
+578         loginFieldsIncorrect: "Your username or password is incorrect.",
+579         invalidEmail: "Invalid email"
+580         //</sl:translate>
+581     };
+582 </script>
+583 <script src="https://web.archive.org/web/20150109042257js_/https://apis.google.com/js/platform.js"></script>
+584     
+585     
+586     <script type="text/javascript" src="https://web.archive.org/web/20150109042257js_/http://js.rbxcdn.com/7704f6e0c7e62588b176909ccc6c9bc8.js"></script>
+587 
+588 
+589     
+590 <script type="text/javascript" src="https://web.archive.org/web/20150109042257js_/http://js.rbxcdn.com/056992985a5375a353985b5556d925a1.js"></script>
+591     
+592     
+593     
+594     <script type="text/javascript">Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/9afb52162a22e15bd11d53f626926dda.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/4eb48eec34ca711d5a7b08a4291ac753.js';Roblox.config.paths['Pages.Messages'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/e8cbac58ab4f0d8d4c707700c9f97630.js';Roblox.config.paths['Resources.Messages'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/fb9cb43a34372a004b06425a1c69c9c4.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/bbaeb48f3312bad4626e00c90746ffc0.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/6b64c2a449f86ea3eddea256a9df96aa.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/838ec9c8067ba6fd6793a8bdbdb48a5c.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/f2697119678d0851cfaa6c2270a727ed.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://web.archive.org/web/20150109042257/http://js.rbxcdn.com/d6e979598c460090eafb6d38231159f6.js';</script>
+595 
+596     
+597     <script>
+598         Roblox.XsrfToken.setToken('t7rlo12PObFW');
+599     </script>
+600 
+601     
+602     <script type="text/javascript">
+603     $(function () {
+604         Roblox.JSErrorTracker.initialize({ 'suppressConsoleError': true});
+605     });
+606 </script>
+607     
+608 
+609 <script type="text/javascript">
+610 $(function(){
+611     function trackReturns() {
+612 	    function dayDiff(d1, d2) {
+613 		    return Math.floor((d1-d2)/86400000);
+614 	    }
+615         if (!localStorage) return; 
+616 
+617 	    var cookieName = 'RBXReturn';
+618 	    var cookieOptions = {expires:9001};
+619         var cookie = localStorage.getItem(cookieName) || {};
+620 
+621 	    if (typeof cookie.ts === "undefined" || isNaN(new Date(cookie.ts))) {
+622 	        localStorage.setItem(cookieName, { ts: new Date().toDateString() });
+623 		    return;
+624 	    }
+625 
+626 	    var daysSinceFirstVisit = dayDiff(new Date(), new Date(cookie.ts));
+627 	    if (daysSinceFirstVisit == 1 && typeof cookie.odr === "undefined") {
+628 		    RobloxEventManager.triggerEvent('rbx_evt_odr', {});
+629 		    cookie.odr = 1;
+630 	    }
+631 	    if (daysSinceFirstVisit >= 1 && daysSinceFirstVisit <= 7 && typeof cookie.sdr === "undefined") {
+632 		    RobloxEventManager.triggerEvent('rbx_evt_sdr', {});
+633 		    cookie.sdr = 1;
+634 	    }
+635 	
+636 	    localStorage.setItem(cookieName, cookie);
+637     }
+638     
+639         GoogleListener.init();
+640     
+641    
+642     
+643         RobloxEventManager.initialize(true);
+644         RobloxEventManager.triggerEvent('rbx_evt_pageview');
+645         trackReturns();
+646     
+647     
+648     
+649         RobloxEventManager._idleInterval = 450000;
+650         RobloxEventManager.registerCookieStoreEvent('rbx_evt_initial_install_start');
+651         RobloxEventManager.registerCookieStoreEvent('rbx_evt_ftp');
+652         RobloxEventManager.registerCookieStoreEvent('rbx_evt_initial_install_success');
+653         RobloxEventManager.registerCookieStoreEvent('rbx_evt_fmp');
+654         RobloxEventManager.startMonitor();
+655     
+656 
+657 });
+658 
+659 </script>
+660 
+661 
+662     
+663 
+664     
+665     
+666 
+667 <script type="text/javascript">
+668     var Roblox = Roblox || {};
+669     Roblox.UpsellAdModal = Roblox.UpsellAdModal || {};
+670 
+671     Roblox.UpsellAdModal.Resources = {
+672         //<sl:translate>
+673         title: "Remove Ads Like This",
+674         body: "Builders Club members do not see external ads like these.",
+675         accept: "Upgrade Now",
+676         decline: "No, thanks"
+677         //</sl:translate>
+678     };
+679 </script>
+680 
+681     
+682     <script type="text/javascript" src="https://web.archive.org/web/20150109042257js_/http://js.rbxcdn.com/84241a93127bec72d4eb6357af8b540a.js"></script>
+683 
+684 </body>
+685 </html><!--
+686      FILE ARCHIVED ON 04:22:57 Jan 09, 2015 AND RETRIEVED FROM THE
+687      INTERNET ARCHIVE ON 05:59:46 May 06, 2025.
+688      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+689 
+690      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+691      SECTION 108(a)(3)).
+692 -->
+693 <!--
+694 playback timings (ms):
+695   captures_list: 5.552 (7)
+696   exclusion.robots: 0.273 (7)
+697   exclusion.robots.policy: 0.165 (7)
+698   esindex: 0.104 (7)
+699   cdx.remote: 426.129 (7)
+700   LoadShardBlock: 710.001 (24)
+701   PetaboxLoader3.datanode: 463.061 (25)
+702   PetaboxLoader3.resolve: 169.124 (3)
+703   load_resource: 82.449
+704 -->
 
-  <h2 class="text-xl font-semibold text-gray-700 mb-2">Login</h2>
-  <form id="loginForm" class="space-y-4 mb-8">
-    <input name="username" type="text" placeholder="Username" required class="w-full p-3 border border-gray-300 rounded" />
-    <input name="password" type="password" placeholder="Password" required class="w-full p-3 border border-gray-300 rounded" />
-    <button type="submit" class="w-full bg-green-600 text-white p-3 rounded">Log In</button>
-  </form>
-
-  <button id="logoutBtn" class="w-full bg-red-500 text-white px-4 py-2 rounded">Log Out</button>
-</div>
-
-  </div>  <script>
-    const registerForm = document.getElementById('registerForm');
-    const loginForm = document.getElementById('loginForm');
-    const logoutBtn = document.getElementById('logoutBtn');
-
-    // Register
-    if (registerForm) {
-      registerForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const username = e.target.username.value;
-        const password = e.target.password.value;
-
-        const res = await fetch('/api/register', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ username, password })
-        });
-        alert(await res.text());
-      });
-    }
-
-    // Login
-    if (loginForm) {
-      loginForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const username = e.target.username.value;
-        const password = e.target.password.value;
-
-        const res = await fetch('/api/login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ username, password })
-        });
-        alert(await res.text());
-      });
-    }
-
-    // Logout
-    if (logoutBtn) {
-      logoutBtn.addEventListener('click', async () => {
-        const res = await fetch('/api/logout', { method: 'POST' });
-        alert(await res.text());
-      });
-    }
-  </script></body>
-</html>
